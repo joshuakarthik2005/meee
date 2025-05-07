@@ -1,9 +1,0 @@
-{
-    "rewrites": [
-      {
-        "source": "/api/inngest",
-        "destination": "/pages/api/inngest.js"
-      }
-    ]
-  }
-  
