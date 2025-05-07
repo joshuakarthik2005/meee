@@ -1,12 +1,19 @@
 import { serve } from "inngest/next";
-import { inngest, syncUserCreation, syncUserDeletion, syncUserUpdation } from "@/config/inngest";
+import { inngest, syncUserCreation, syncUserUpdation, syncUserDeletion } from "@/config/inngest";
 
-// Create an API that serves zero functions
 const handler = serve({
-    client: inngest,
-    functions: [syncUserCreation, syncUserUpdation, syncUserDeletion],
-  });
-  
-  export const { GET, POST } = handler;
-  export default handler.POST; // 👈 THIS IS REQUIRED
-  
+  client: inngest,
+  functions: [
+    syncUserCreation,
+    syncUserUpdation,
+    syncUserDeletion
+  ],
+});
+
+export const config = {
+  api: {
+    bodyParser: false,
+  },
+};
+
+export default handler;
