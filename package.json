@@ -9,13 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@clerk/nextjs": "^6.18.5",
+    "@clerk/nextjs": "^6.19.0",
     "inngest": "^3.35.1",
     "mongoose": "^8.14.1",
-    "next": "^15.2.3",
+    "next": "^15.1.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-hot-toast": "^2.5.1"
+    "react-hot-toast": "^2.5.1",
+    "regenerate-unicode-properties": "^10.2.0",
+    "styled-jsx": "^5.1.7"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
