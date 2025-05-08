@@ -1,6 +1,6 @@
 {
     "functions": {
-      "api/inngest.ts": {
+      "api/**/*.js": {
         "includeFiles": ["node_modules/styled-jsx/package.json"]
       }
     }
