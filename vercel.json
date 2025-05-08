@@ -1,7 +1,0 @@
-{
-    "functions": {
-      "api/inngest": {
-        "includeFiles": "node_modules/styled-jsx/package.json"
-      }
-    }
-  }
