@@ -14,9 +14,9 @@ const nextConfig = {
         },
       ],
     },
-    // Explicitly enable App Router and allow Pages Router
+    // Explicitly enable App Router (optional, default in Next.js 13.4+)
     experimental: {
-      appDir: true, // Enable App Router for app/ directory
+      appDir: true,
     },
   };
   

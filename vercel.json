@@ -1,12 +1,8 @@
 {
-    "rewrites": [
-      {
-        "source": "/api/inngest/(.*)",
-        "destination": "/api/inngest"
-      },
-      {
-        "source": "/api/(.*)",
-        "destination": "/api/$1"
+    "functions": {
+      "api/inngest.ts": {
+        "includeFiles": ["node_modules/styled-jsx/package.json"]
       }
-    ]
+    }
   }
+  
